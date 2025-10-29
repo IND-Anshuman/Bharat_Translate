@@ -1,0 +1,58 @@
+# Environment & Secrets
+.env
+*.env
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.bash_history
+.idea/
+.vscode/
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs & Runtime Outputs
+*.log
+translation_log.csv
+translation_logs.log
+*.json
+*.csv
+
+# Model Checkpoints
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.pkl
+*.model
+*.onnx
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Streamlit / Gradio cache
+.streamlit/
+gradio_cached_examples/
+__results__/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test & Coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+.pytest_cache/
+.cache/
